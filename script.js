@@ -9,7 +9,7 @@ function multiply(a,b) {
 }
 function divide(a,b) {
     if (b === 0){
-        throw new Error("Division by Zero");
+        throw new Error("Division by zero");
     }
     return a/b;
 }
